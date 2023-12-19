@@ -1,0 +1,6 @@
+This is a sample terraform file to create infrastructure
+aws ece instance "Test" {
+	type = "t2-medium"
+	key = "sai"
+	ami_id= "us767565453"
+}
